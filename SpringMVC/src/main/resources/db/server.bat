@@ -1,0 +1,1 @@
+java -classpath ..\..\SpringMVC-0.0.1-SNAPSHOT\WEB-INF\lib\hsqldb-1.8.0.10.jar org.hsqldb.Server -database test
