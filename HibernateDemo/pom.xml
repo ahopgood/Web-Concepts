@@ -28,6 +28,19 @@
     </plugins>
   </build>
   <dependencies>
+  	<!-- Hibernate Dependencies -->
+	<dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-core</artifactId>
+    	<version>4.1.0.Final</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-entitymanager</artifactId>
+    	<version>4.1.0.Final</version>
+    </dependency>
+  	
+  	<!-- Junit and Testing Dependencies -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -56,5 +69,15 @@
     	<version>1.5</version>
     	<type>maven-plugin</type>
     </dependency>
-  </dependencies>
+	</dependencies>
+  
+  	<!--  Repositories -->
+  	<!-- 
+  	<repositories>
+		<repository>
+			<id>JBoss repository</id>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+	 -->
 </project>
